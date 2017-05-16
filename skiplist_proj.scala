@@ -1,8 +1,5 @@
 import scala.collection.mutable.ListBuffer
 
-/**
-  * Created by 596956 on 20/04/2017.
-  */
 object Element {
   def apply(next: Option[Element] = None, prev: Option[Element] = None,
   up: Option[Element] = None, down: Option[Element] = None, kV: (Int, Any)) = new Element(next = next, prev = prev,
